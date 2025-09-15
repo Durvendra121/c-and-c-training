@@ -17,4 +17,4 @@ else{
 int main (){
 int a=17, b=15,c=10;
 cout <<"the largest no is"<<largest(a,b,c);
-}
+}                                          
