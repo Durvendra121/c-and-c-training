@@ -1,4 +1,4 @@
-#include<stdio.h>
+ #include<stdio.h>
 int main (){
     int sum=0;
 int arr[3][3]={{10,20,30},{40,50,60},{70,80,90}};
