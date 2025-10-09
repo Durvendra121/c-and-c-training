@@ -1,4 +1,4 @@
-#include <iostream>
+//shallow copy
 #include <iostream>
  using namespace std ;
 class Demo {
