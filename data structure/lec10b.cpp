@@ -45,11 +45,14 @@ void disp()
    temp=temp->next;
  }
 }
-void add before (int a, int b)
+void add_before (int a, int b)
 {
     temp=first; 
-    x=30;
-    while (temp->data!=x)
+    while (temp->data!=b && temp->next!=null)
+    {
+        ttemp=temp;
+        temp=temp->next;
+    }
     {
         ttemp=temp;
         temp=temp->next;
